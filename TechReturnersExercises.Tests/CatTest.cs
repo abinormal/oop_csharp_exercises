@@ -56,7 +56,7 @@ namespace TechReturners.Tests
             ICat c = new LionCat();
             Assert.Equal("Roar!!!!", c.Eat);
         }
-/*
+
         [Fact]
         public void CheckFeedCheetah()
         {
@@ -70,7 +70,5 @@ namespace TechReturners.Tests
             ICat c = new DomesticCat();
             Assert.Equal("Purrrrrrr", c.Eat);
         }
-        */
     }
-    
 }
