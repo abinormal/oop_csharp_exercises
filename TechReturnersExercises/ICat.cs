@@ -10,16 +10,16 @@ namespace TechReturners.Exercises
     }
     public class DomesticCat : ICat
     {
-        private bool _IsAsleep = false;
+        private bool Sleep = false;
 
-        public bool IsAsleep => _IsAsleep;
+        public bool IsAsleep => Sleep;
         public void GoToSleep()
         {
-            _IsAsleep = true;
+            Sleep = true;
         }
         public void WakeUp()
         {
-            _IsAsleep = false;
+            Sleep = false;
         }
     }
 
