@@ -11,7 +11,7 @@ namespace TechReturners.Tests
             ICat c = new DomesticCat();
             Assert.False(c.IsAsleep);
         }
-/*
+
         [Fact]
         public void CheckCatCanGoToSleep()
         {
@@ -35,7 +35,7 @@ namespace TechReturners.Tests
             ICat c = new DomesticCat();
             Assert.Equal("domestic", c.Setting);
         }
-
+/*
         [Fact]
         public void CheckCatHeight()
         {
