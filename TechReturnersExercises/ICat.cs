@@ -25,5 +25,21 @@ namespace TechReturners.Exercises
             Sleep = false;
         }
     }
+    public class LionCat : ICat
+    {
+        private bool Sleep = false;
+        public bool IsAsleep => Sleep;
+        public string Setting => "wild";
+        public int AverageHeight => 1100;
+        public void GoToSleep()
+        {
+            Sleep = true;
+        }
+        public void WakeUp()
+        {
+            Sleep = false;
+        }
+        
+    }
 
 }

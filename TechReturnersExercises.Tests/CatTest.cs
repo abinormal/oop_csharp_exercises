@@ -42,14 +42,14 @@ namespace TechReturners.Tests
             ICat c = new DomesticCat();
             Assert.Equal(23, c.AverageHeight);
         }
-/*
+
         [Fact]
         public void CheckLionHeight()
         {
             ICat c = new LionCat();
             Assert.Equal(1100, c.AverageHeight);
         }
-
+/*
         [Fact]
         public void CheckFeedLion()
         {
