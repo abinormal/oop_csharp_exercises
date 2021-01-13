@@ -49,14 +49,14 @@ namespace TechReturners.Tests
             ICat c = new LionCat();
             Assert.Equal(1100, c.AverageHeight);
         }
-/*
+
         [Fact]
         public void CheckFeedLion()
         {
             ICat c = new LionCat();
             Assert.Equal("Roar!!!!", c.Eat);
         }
-
+/*
         [Fact]
         public void CheckFeedCheetah()
         {
